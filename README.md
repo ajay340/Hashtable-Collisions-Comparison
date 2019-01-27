@@ -23,6 +23,8 @@ If the hash index was empty/available, it would insert the keypair; if there was
 The same type of premise as Linear probing, but instead of going to the next hash index if there was a collision, it would go to a calculated hash index and repeat the process until a hash index was found to be empty/available.
 
 The double hashing function:
+
+(Q can be set to any integer, I just used 211.)
 ```
 public int hashFunc2(K k) {
 	int Q = 211;
