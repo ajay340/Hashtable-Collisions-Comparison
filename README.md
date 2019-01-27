@@ -42,7 +42,7 @@ public int hashFunc2(K k) {
 
 ## Keypair
 
-The keypair, the objects being inserted in the hashtables, had a unique key and random element.
+The keypair structure (the objects being inserted in the hashtables) have a unique key and random element.
 
 ```
 public class Item<K,E> implements IItem<K, E>
