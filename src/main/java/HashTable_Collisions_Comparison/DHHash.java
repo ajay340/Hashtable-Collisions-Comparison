@@ -13,7 +13,7 @@ public class DHHash<K, E> extends AHash<K, E> {
 	public int hashFunc2(K k) {
 		int Q = 211;
 		int hashVal;
-		if (Q >= N) {
+		while (Q >= N) {
 			Q--;
 		}
 		hashVal = Q - (h.hashIndex(k) % Q);
