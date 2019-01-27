@@ -6,7 +6,11 @@
 </p>
 <img src="https://github.com/ajay340/Hashtable-Collisions-Comparison/blob/master/pictures/comparison.png" />
 
+---
+
 This is a comparison of the number of collisions caused by inserting keypairs in a hashtable with respect to Linear Probing and Double Hashing methods.
+
+---
 
 ## Documentaion
 * [Linear Probing](#linear-probing)
