@@ -1,5 +1,4 @@
 language: java
 jdk: oraclejdk8
-script: mvn test -f pom.xml
 after_success:
 - mvn coveralls:report
