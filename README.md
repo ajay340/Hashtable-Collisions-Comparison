@@ -3,6 +3,7 @@
 <p align="center">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
     <img src=https://img.shields.io/badge/Made%20with-Java-red.svg />
+    <img src="https://travis-ci.org/ajay340/Hashtable-Collisions-Comparison.svg?branch=master" />
 </p>
 <img src="https://github.com/ajay340/Hashtable-Collisions-Comparison/blob/master/pictures/comparison.png" />
 
